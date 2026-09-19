@@ -1,22 +1,18 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html,
-body,
-#root {
-  width: 100%;
-  min-height: 100%;
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #05050b;
-  color: white;
+#root {
+  min-height: 100vh;
 }
+
 
 button,
 input {
@@ -227,27 +223,12 @@ button {
 
 .join-card h1 {
   text-align: center;
-
   font-size: 44px;
-
   font-weight: 800;
-
   letter-spacing: -1.5px;
-
   margin-bottom: 12px;
-
-  background:
-    linear-gradient(
-      90deg,
-      #ffffff,
-      #c4b5fd,
-      #67e8f9
-    );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #c4b5fd;
 }
-
 .join-subtitle {
   text-align: center;
 
@@ -1537,5 +1518,3 @@ button {
 
   color: white;
 }
-```
-ss
